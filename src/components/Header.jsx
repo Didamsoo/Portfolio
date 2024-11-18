@@ -4,7 +4,6 @@ import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
-
 const Header = () => {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,6 +52,7 @@ const Header = () => {
         <Link to="skills" smooth={true} duration={500} onClick={closeMenu}>
           {t('nav_skills')}
         </Link>
+
         <Link to="contact" smooth={true} duration={500} onClick={closeMenu}>
           {t('nav_contact')}
         </Link>

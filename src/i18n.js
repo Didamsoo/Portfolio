@@ -14,7 +14,7 @@ const resources = {
       // HERO SECTION
       
       hero_title_span: "Web Developer ",
-      hero_title: "& Problem Solver",
+      //hero_title: "& Problem Solver",
       hero_description: "Specialized in Web Development, JavaScript, React, Node.js, and scalable API integration.",
 
       
@@ -30,8 +30,8 @@ const resources = {
       download_resume: "Download my resume",
 
       // PROJECTS SECTION
-      selected: "Selected",
-      projects_2024: "Projects 2024",
+      
+      projects_title: "Selected Projects 2024",
       click_to_discover: "Click to discover",
       description: "Description",
       technologies: "Technologies",
@@ -71,10 +71,13 @@ const resources = {
 
       // SKILLS SECTION
       skills_title: "Skills",
-      skills_frontend: "Front-end",
-      skills_backend: "Back-end",
-      skills_tools: "Tools",
+      skills_category_front_end: "Front-end",
+      skills_category_back_end: "Back-end",
+      skills_category_tools: "Tools",
+            
 
+
+    
 
       // CONTACT SECTION
       contact_title: "Have a project idea?",
@@ -108,7 +111,7 @@ const resources = {
 
       // HERO SECTION
       hero_title_span: "Développeur Web",
-      hero_title: "& Optimiseur",
+      //hero_title: "& Optimiseur",
       hero_description: "Spécialisé en développement web front-end et back-end, avec plus d'un an d'expérience pratique.",
 
 
@@ -123,8 +126,8 @@ const resources = {
       download_resume: "Télécharger mon CV",
 
       // PROJECTS SECTION
-      selected: "Sélection",
-      projects_2024: "Projets 2024",
+      
+      projects_title: "Sélection Projets 2024",
       click_to_discover: "Cliquez pour découvrir",
       description: "Description",
       technologies: "Technologies",
@@ -160,6 +163,12 @@ const resources = {
       project_6_description: "Gestion de projet efficace.",
       project_6_technologies: "Gestion de projet",
       project_6_challenges: "Sélection des technologies adaptées.",
+
+      // SKILLS SECTION
+      skills_title: "Compétences",
+      skills_category_front_end: "Front-end",
+      skills_category_back_end: "Back-end",
+      skills_category_tools: "Outils",
 
       // CONTACT SECTION
       contact_title: "Vous avez une idée de projet ?",
