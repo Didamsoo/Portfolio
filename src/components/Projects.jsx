@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './Projects.scss';
 import { useTranslation } from 'react-i18next';
-
-// Importation des images
 import projectImage1 from '../img/Booki.webp';
 import projectImage2 from '../img/p2.webp';
 import projectImage3 from '../img/p3.webp';
@@ -52,10 +50,18 @@ const projectsData = [
 function Projects() {
   const [modalProject, setModalProject] = useState(null);
   const { t } = useTranslation();
+  const modalRef = useRef(null);
 
   const openModal = (projectId) => {
     const selectedProject = projectsData.find((project) => project.id === projectId);
     setModalProject(selectedProject);
+    
+    // Attendre que la modale soit visible puis faire défiler la page vers celle-ci
+    setTimeout(() => {
+      if (modalRef.current) {
+        modalRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }, 100);
   };
 
   const closeModal = () => {
@@ -84,9 +90,8 @@ function Projects() {
         ))}
       </div>
 
-      {/* Modale pour afficher les détails du projet */}
       {modalProject && (
-        <div className="modal" onClick={closeModal} aria-modal="true" role="dialog">
+        <div className="modal" onClick={closeModal} aria-modal="true" role="dialog" ref={modalRef}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <span className="close-button" onClick={closeModal}>&times;</span>
             <h2>{modalProject.title}</h2>
