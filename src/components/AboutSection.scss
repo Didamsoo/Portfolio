@@ -1,0 +1,170 @@
+.about-section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 10%;
+  padding: 80px 50px;
+  opacity: 1; /* S'assurer que la section est visible */
+  transform: translateY(0);
+  filter: blur(0);
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr; /* Une seule colonne sur mobile */
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr; /* Une seule colonne sur mobile */
+    gap: 20px;
+    padding: 40px 20px;
+    
+  }
+
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  @media (max-width: 768px) {
+    align-items: center;
+  }
+
+  @media (max-width: 1024px) {
+    align-items: center;
+  }
+}
+
+.about-label {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #D3E87D;
+  margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 8%;
+  object-fit: cover;
+  margin-top: 30px;
+  margin-left: 0;
+
+  @media (max-width: 768px) {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto 0;
+  }
+
+  @media (max-width: 1024px) {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto 0;
+  }
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    align-items: center;
+    text-align: center;
+  }
+
+  @media (max-width: 1024px) {
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+  }
+}
+
+.about-description {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.4;
+  color: #FFFFFF;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: left;
+
+  @media (max-width: 768px) {
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: center;
+  }
+}
+
+.journey-section {
+  margin-top: 50px;
+
+  @media (max-width: 768px) {
+    margin-top: 30px;
+  }
+  @media (max-width: 1024px) {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+}
+
+.journey-title {
+  font-size: 30px;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 30px;
+  }
+}
+
+.journey-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.download-resume {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #D3E87D;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #00ff99;
+  }
+}

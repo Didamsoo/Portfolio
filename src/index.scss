@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Instrument Sans', sans-serif;
+  background-color: #191B1B; // Fond noir global
+  color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px; /* Ajuster la hauteur si nécessaire */
+  background-color: #191B1B; /* Optionnel : Couleur de fond */
+  color: #b3b3b3; /* Optionnel : Couleur du texte */
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+}
