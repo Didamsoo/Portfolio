@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './Projects.scss';
 import { useTranslation } from 'react-i18next';
-import projectImage1 from '../img/p1.webp';
+
+// Importation des images
+import projectImage1 from '../img/Booki.webp';
 import projectImage2 from '../img/p2.webp';
 import projectImage3 from '../img/p3.webp';
 import projectImage4 from '../img/p4.webp';
@@ -9,12 +11,42 @@ import projectImage5 from '../img/p5.webp';
 import projectImage6 from '../img/p6.webp';
 
 const projectsData = [
-  { id: 1, image: projectImage1 },
-  { id: 2, image: projectImage2 },
-  { id: 3, image: projectImage3 },
-  { id: 4, image: projectImage4 },
-  { id: 5, image: projectImage5 },
-  { id: 6, image: projectImage6 },
+  {
+    id: 1,
+    image: projectImage1,
+    title: 'Booki',
+    github: 'https://github.com/Didamsoo/ProjetOPCL'
+  },
+  {
+    id: 2,
+    image: projectImage2,
+    title: 'Sophie Bluel',
+    github: 'https://github.com/Didamsoo/OPC_P3'
+  },
+  {
+    id: 3,
+    image: projectImage3,
+    title: 'Qwenta',
+    github: 'https://github.com/Didamsoo'
+  },
+  {
+    id: 4,
+    image: projectImage4,
+    title: 'Nina Carducci',
+    github: 'https://github.com/Didamsoo/OPC_P4'
+  },
+  {
+    id: 5,
+    image: projectImage5,
+    title: 'Kasa',
+    github: 'https://github.com/Didamsoo/OPC_P5'
+  },
+  {
+    id: 6,
+    image: projectImage6,
+    title: 'Mon Vieux Grimoire',
+    github: 'https://github.com/Didamsoo/OPC_P6'
+  }
 ];
 
 function Projects() {
@@ -22,7 +54,8 @@ function Projects() {
   const { t } = useTranslation();
 
   const openModal = (projectId) => {
-    setModalProject(projectId);
+    const selectedProject = projectsData.find((project) => project.id === projectId);
+    setModalProject(selectedProject);
   };
 
   const closeModal = () => {
@@ -51,17 +84,18 @@ function Projects() {
         ))}
       </div>
 
+      {/* Modale pour afficher les détails du projet */}
       {modalProject && (
         <div className="modal" onClick={closeModal} aria-modal="true" role="dialog">
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <span className="close-button" onClick={closeModal}>&times;</span>
-            <h2>{t(`project_${modalProject}_title`)}</h2>
-            <p><strong>{t('description')} :</strong> {t(`project_${modalProject}_description`)}</p>
-            <p><strong>{t('technologies')} :</strong> {t(`project_${modalProject}_technologies`)}</p>
-            <p><strong>{t('challenges')} :</strong> {t(`project_${modalProject}_challenges`)}</p>
+            <h2>{modalProject.title}</h2>
+            <p><strong>{t('description')} :</strong> {t(`project_${modalProject.id}_description`)}</p>
+            <p><strong>{t('technologies')} :</strong> {t(`project_${modalProject.id}_technologies`)}</p>
+            <p><strong>{t('challenges')} :</strong> {t(`project_${modalProject.id}_challenges`)}</p>
             <p>
               <a 
-                href={`https://github.com/Didamsoo/ProjetOPC${modalProject}`} 
+                href={modalProject.github} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="github-link"
