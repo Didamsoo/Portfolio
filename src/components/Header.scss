@@ -9,20 +9,20 @@
   background-color: #000;
   z-index: 1000;
 
-  /* Menu burger à gauche */
+  
   .burger-menu {
     display: flex;
     font-size: 24px;
     color: #FFFFFF;
     cursor: pointer;
-    margin-right: auto; /* Aligner à gauche */
+    margin-right: auto; 
 
     @media (min-width: 769px) {
-      display: none; /* Masquer le menu burger sur desktop */
+      display: none; 
     }
   }
 
-  /* Logo au centre */
+
   .logo {
     font-size: 24px;
     color: #D3E87D;
@@ -33,7 +33,7 @@
     transform: translateX(-50%);
   }
 
-  /* Sélecteur de langue à droite */
+
   .language-switch {
     display: flex;
     gap: 10px;

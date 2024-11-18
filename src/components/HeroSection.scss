@@ -19,11 +19,10 @@
   margin-bottom: 20px;
 }
 
-/* Titre principal */
+
 .hero-title {
   font-size: 7rem;
   color: #FAFAFA;
-  //margin-bottom: 20px;
   margin: 0;
 }
 
@@ -31,17 +30,15 @@
   color: #D3E87D;
 }
 
-/* Description */
+
 .hero-description {
   font-size: 2rem;
   line-height: 1.5;
   color: #b3b3b3;
-  //max-width: 700px;
-  //margin: 20px auto;
   padding: 0 20px;
 }
 
-/* Section pour la carte de projet et le bouton explorer */
+
 .project-section {
   display: flex;
   align-items: center;
@@ -85,7 +82,7 @@
   }
 }
 
-/* Styles pour tablettes entre 1024px et 1176px */
+
 @media (max-width: 1024px) {
   .hero-section {
     padding: 40px 50px;

@@ -22,7 +22,7 @@ function Contact() {
           </div>
         </div>
         <div className="contact-right">
-          {/* Modification ici */}
+          
           <a href="mailto:adam@gmail.com" className="get-in-touch">
             {t('contact_button')} <span>→</span>
           </a>

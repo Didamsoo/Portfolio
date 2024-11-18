@@ -3,7 +3,7 @@
     padding-top: 20px;
   }
   
-  /* Style du titre principal */
+
   .section-title {
     font-family: 'Instrument Sans', sans-serif;
     font-weight: 700;
@@ -19,17 +19,17 @@
     }
   }
   
-  /* Ajustements pour le format mobile */
+
   @media (max-width: 768px) {
     .section-title {
-      font-size: 60px; /* Taille réduite pour le titre principal */
+      font-size: 60px; 
       line-height: 1.2;
-      margin-top: 20px; /* Espacement supérieur pour améliorer la lisibilité */
+      margin-top: 20px; 
     }
   
     .section-title.secondary {
-      font-size: 30px; /* Taille réduite pour le sous-titre */
-      margin-left: 0; /* Centrer le sous-titre sur mobile */
+      font-size: 30px; 
+      margin-left: 0; 
       margin-bottom: 50px;
     }
   }
@@ -44,7 +44,7 @@
   }
   
   .project-gallery::-webkit-scrollbar {
-    display: none; /* Masquer la barre de défilement */
+    display: none; 
   }
   
   .project {
@@ -124,7 +124,7 @@
   }
   
   .modal-content p.description {
-    margin-bottom: 25px; /* Espace entre la description et la section suivante */
+    margin-bottom: 25px; 
   }
   
   .modal-content p strong {

@@ -4,18 +4,18 @@
   align-items: start;
   gap: 10%;
   padding: 80px 50px;
-  opacity: 1; /* S'assurer que la section est visible */
+  opacity: 1; 
   transform: translateY(0);
   filter: blur(0);
 
   @media (max-width: 768px) {
-    grid-template-columns: 1fr; /* Une seule colonne sur mobile */
+    grid-template-columns: 1fr; 
     gap: 20px;
     padding: 40px 20px;
   }
 
   @media (max-width: 1024px) {
-    grid-template-columns: 1fr; /* Une seule colonne sur mobile */
+    grid-template-columns: 1fr; 
     gap: 20px;
     padding: 40px 20px;
     

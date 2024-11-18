@@ -8,7 +8,7 @@
     text-align: center;
     position: relative;
     min-height: 75vh;
-    justify-content: center; /* Centrer verticalement */
+    justify-content: center; 
   }
   
   .contact-content {
@@ -18,7 +18,7 @@
     width: 100%;
     max-width: 1200px;
     margin-bottom: auto;
-    justify-content: center; /* Centrer horizontalement */
+    justify-content: center; 
   }
   
   .contact-left {
@@ -103,7 +103,7 @@
   .footer-nav-wrapper p {
     color: #b3b3b3;
     font-size: 16px;
-    margin: 0; /* Suppression de la marge pour éviter l'espace en dessous */
+    margin: 0; 
   }
   
   .footer-nav-wrapper p:hover {
@@ -116,7 +116,7 @@
       padding: 0px 20px;
       text-align: center;
       min-height: auto;
-      justify-content: center; /* Centrer le contenu pour mobile */
+      justify-content: center; 
       background: none;
     }
   
@@ -161,7 +161,7 @@
   
     .footer-nav-wrapper {
       padding: 10px 0;
-      position: static; /* Aligner correctement le footer sur mobile */
+      position: static; 
       margin-top: 20px;
     }
   }

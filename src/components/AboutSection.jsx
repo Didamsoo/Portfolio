@@ -7,7 +7,7 @@ const AboutSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="about-section visible" id="about"> {/* Forcer la classe visible */}
+    <section className="about-section visible" id="about"> 
       <div className="about-left">
         <p className="about-label">➔ {t('about_label')}</p>
         
@@ -15,7 +15,7 @@ const AboutSection = () => {
       <div className="about-right">
         <p className="about-description">{t('about_description')}</p>
         
-        {/* Section "My professional journey" */}
+        
         <div className="journey-section">
           <h2 className="journey-title">{t('journey_title')}</h2>
 
