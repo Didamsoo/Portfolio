@@ -31,7 +31,7 @@ const Header = () => {
       </div>
 
       {/* Logo cliquable au centre */}
-      <Link to="hero" smooth={true} duration={500} className="logo">
+      <Link to="hero" smooth={true}  className="logo">
         //adam
       </Link>
 
