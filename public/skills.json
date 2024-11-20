@@ -1,0 +1,26 @@
+[
+    {
+      "category": "Front-end",
+      "skills": [
+        { "name": "ReactJS", "img": "/img/reactjs.webp" },
+        { "name": "Sass", "img": "/img/sass.webp" }
+      ]
+    },
+    {
+      "category": "Back-end",
+      "skills": [
+        { "name": "NodeJS", "img": "/img/nodejs.webp" },
+        { "name": "ExpressJS", "img": "/img/express.webp" },
+        { "name": "MongoDB", "img": "/img/mongodb.webp" }
+      ]
+    },
+    {
+      "category": "Outils",
+      "skills": [
+        { "name": "GitHub", "img": "/img/github.webp" },
+        { "name": "Postman", "img": "/img/postman.webp" },
+        { "name": "Swagger", "img": "/img/swagger.webp" }
+      ]
+    }
+  ]
+  

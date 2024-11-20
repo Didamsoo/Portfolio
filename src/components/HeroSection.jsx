@@ -1,8 +1,6 @@
 import React from 'react';
 import './HeroSection.scss';
 import { useTranslation } from 'react-i18next';
-import profileImage from '../img/adam.webp';
-import './Contact.scss';
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -11,7 +9,7 @@ const HeroSection = () => {
     <section className="hero-section" id="hero" aria-labelledby="hero-title">
       {/* Photo de profil */}
       <img 
-        src={profileImage} 
+        src={`${process.env.PUBLIC_URL}/img/adam.webp`} 
         alt={t('profile_image_alt')} 
         className="PhotoProfile" 
         loading="lazy" 
@@ -21,7 +19,7 @@ const HeroSection = () => {
       {/* Titre principal */}
       <header>
         <h1 className="hero-title" id="hero-title">
-          <span>{t('hero_title_span')}</span> 
+          <span>{t('hero_title_span')}</span>
         </h1>
       </header>
 
