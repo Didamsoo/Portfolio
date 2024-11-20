@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "title": "Booki",
+      "description": "Site internet permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.",
+      "technologies": "HTML, CSS",
+      "challenges": "Le respect des règles responsives imposées par les designers.",
+      "github": "https://github.com/Didamsoo/ProjetOPCL",
+      "image": "/img/p1.webp"
+    },
+    {
+      "id": 2,
+      "title": "Sophie Bluel",
+      "description": "Dynamiser le site internet de Sophie Bluel, architecte d'intérieur, grâce au JavaScript.",
+      "technologies": "JavaScript",
+      "challenges": "La découverte de cette nouvelle stack.",
+      "github": "https://github.com/Didamsoo/OPC_P3",
+      "image": "/img/p2.webp"
+    },
+    {
+      "id": 3,
+      "title": "Qwenta",
+      "description": "Assurer la bonne livraison du projet Qwenta grâce à une gestion de projet et d'équipe mise en place.",
+      "technologies": "Gestion de projet",
+      "challenges": "Gestion des plannings avec une deadline serrée.",
+      "github": "https://github.com/Didamsoo",
+      "image": "/img/p3.webp"
+    },
+    {
+      "id": 4,
+      "title": "Nina Carducci",
+      "description": "Débugger et améliorer les performances du site de Nina Carducci.",
+      "technologies": "Audit, SEO",
+      "challenges": "Reprise d'un travail réalisé par un autre développeur.",
+      "github": "https://github.com/Didamsoo/OPC_P4",
+      "image": "/img/p4.webp"
+    },
+    {
+      "id": 5,
+      "title": "Kasa",
+      "description": "Refonte du site de Kasa avec React en développant l'ensemble de l'application.",
+      "technologies": "React, NodeJS",
+      "challenges": "Respecter les deadlines.",
+      "github": "https://github.com/Didamsoo/OPC_P5",
+      "image": "/img/p5.webp"
+    },
+    {
+      "id": 6,
+      "title": "Mon Vieux Grimoire",
+      "description": "Développement d'une application complète pour la gestion de livres.",
+      "technologies": "Node.js, Express, MongoDB",
+      "challenges": "Gestion des états complexes et interactions utilisateur.",
+      "github": "https://github.com/Didamsoo/OPC_P6",
+      "image": "/img/p6.webp"
+    }
+  ]
+  
