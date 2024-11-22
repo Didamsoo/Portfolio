@@ -24,7 +24,7 @@
       "technologies": "Gestion de projet",
       "challenges": "Gestion des plannings avec une deadline serrée.",
       "github": "https://github.com/Didamsoo",
-      "image": "/img/p3.webp"
+      "image": "/img/p6.webp"
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "technologies": "Audit, SEO",
       "challenges": "Reprise d'un travail réalisé par un autre développeur.",
       "github": "https://github.com/Didamsoo/OPC_P4",
-      "image": "/img/p4.webp"
+      "image": "/img/p3.webp"
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "technologies": "React, NodeJS",
       "challenges": "Respecter les deadlines.",
       "github": "https://github.com/Didamsoo/OPC_P5",
-      "image": "/img/p5.webp"
+      "image": "/img/p4.webp"
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "technologies": "Node.js, Express, MongoDB",
       "challenges": "Gestion des états complexes et interactions utilisateur.",
       "github": "https://github.com/Didamsoo/OPC_P6",
-      "image": "/img/p6.webp"
+      "image": "/img/p5.webp"
     }
   ]
   
